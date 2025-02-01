@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="model_ds_3" category="opl">
+            			
+            <ref name="model_ds_3.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_3.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_1" category="opl">
+            			
+            <ref name="model_ds_1.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_1.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_2" category="opl">
+            			
+            <ref name="model_ds_2.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_2.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_4" category="opl">
+            			
+            <ref name="model_ds_4.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_4.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_5" category="opl">
+            			
+            <ref name="model_ds_5.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_5.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_6" category="opl">
+            			
+            <ref name="model_ds_6.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_6.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_7" category="opl">
+            			
+            <ref name="model_ds_7.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_7.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_8" category="opl">
+            			
+            <ref name="model_ds_8.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_8.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_9" category="opl">
+            			
+            <ref name="model_ds_9.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_9.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="model_ds_10" category="opl">
+            			
+            <ref name="model_ds_10.mod" type="model">
+			</ref>
+            			
+            <ref name="model_ds_10.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

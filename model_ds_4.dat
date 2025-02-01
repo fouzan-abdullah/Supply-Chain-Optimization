@@ -1,0 +1,22 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: Fouzan
+ * Creation Date: Dec 2, 2023 at 11:47:17 PM
+ *********************************************/
+SheetConnection file("Data Sets.xlsx");
+ 
+n from SheetRead(file, "'Data Set 4'!j43:j43");//Number of potential factory locations
+l from SheetRead(file, "'Data Set 4'!j44:j44");//Number of suppliers
+t from SheetRead(file, "'Data Set 4'!j45:j45");//Number of potential warehouse locations
+m from SheetRead(file, "'Data Set 4'!j46:j46");//Number of markets or demand points
+
+Ki from SheetRead(file, "'Data Set 4'!i4:i5"); //Potential capacity of factory at site i
+Sh from SheetRead(file, "'Data Set 4'!f44:f47"); //Supply capacity at supplier h
+We from SheetRead(file, "'Data Set 4'!b12:i12"); //Potential warehouse capacity at site e
+Dj from SheetRead(file, "'Data Set 4'!b69:i69"); //Annual demand from customer j
+Fi from SheetRead(file, "'Data Set 4'!b72:b73"); //Fixed cost of locating a plant at site i
+Fe from SheetRead(file, "'Data Set 4'!b40:i40"); //Fixed cost of locating a warehouse at site e
+Chi from SheetRead(file, "'Data Set 4'!b44:c47"); //Cost of shipping one unit from supply source h to factory i
+Cie from SheetRead(file, "'Data Set 4'!b51:i52"); //Cost of shipping one unit from factory i to warehouse e
+Cej from SheetRead(file, "'Data Set 4'!b57:i64"); //Cost of shipping one unit from warehouse e to customer j
+ 
